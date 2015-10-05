@@ -11,9 +11,9 @@ How would you modify it so that it now decrypts to: "Pass: notAs3cre7. Don't loo
 This challenge does not have a specific flag format.
 
 ####풀이 방법
-메시지를 바꾸고 싶다는 문제
-Original 메시지와 바꾸려는 메시지의 차이가 첫 블록만 다름
-IV + plaintext를 처음 주어진 문제와 같게 맞추면 암호문이 같아짐
+ * 메시지를 바꾸고 싶다는 문제
+  - Original 메시지와 바꾸려는 메시지의 차이가 첫 블록만 다름
+  - IV + plaintext를 처음 주어진 문제와 같게 맞추면 암호문이 같아짐
 
-IV xor Original = IV' xor NewMsg
-IV' = IV xor Original xor NewMsg
+ * IV xor Original = IV' xor NewMsg
+ * IV' = IV xor Original xor NewMsg
